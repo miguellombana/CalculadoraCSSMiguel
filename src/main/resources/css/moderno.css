@@ -1,0 +1,92 @@
+
+#view {
+    -fx-background-color: black;
+    -fx-font-family: "Monospace";
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+}
+
+
+#screenText {
+    -fx-text-fill: #d3d3d3;
+    -fx-alignment: center-right;
+    -fx-font-size: 25pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0px;
+}
+
+
+.button {
+	    -fx-background-radius: 0px;
+    -fx-background-insets: 0px;
+    -fx-font-size: 16pt;
+
+}
+
+
+.button:focused {
+    -fx-border-color: white;
+}
+
+
+.button:armed {
+    -fx-border-color: yellow;
+}
+
+
+.button-number {
+    -fx-text-fill: white;
+    -fx-background-color: #a9a9a9;
+}
+
+
+.button {
+    -fx-font-size: 16pt;
+    -fx-background-radius: 5em;
+    -fx-background-insets: 0px;
+    -fx-border-radius: 5em;
+}
+
+
+.button:focused {
+    -fx-border-color: white;
+}
+
+
+.button:armed {
+    -fx-border-color: yellow;
+}
+
+
+.button-number {
+    -fx-text-fill: white;
+    -fx-background-color: #a9a9a9;
+}
+
+
+.button-number:hover {
+    -fx-text-fill: #333333;
+    -fx-background-color: white;
+}
+
+
+.button-number:pressed {
+    -fx-text-fill: #d3d3d3;
+    -fx-background-color: black;
+}
+
+
+.button-reset {
+    -fx-text-fill: black;
+    -fx-background-color: #d3d3d3;
+}
+
+
+.button-reset:hover {
+    -fx-background-color: white;
+}
+
+
+x
